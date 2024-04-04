@@ -1,0 +1,94 @@
+/* App.css */
+
+/* Styling for the body to have a light blue background */
+body {
+  background-color: #f0f8ff; /* Light blue color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for the container */
+.container {
+  max-width: 600px; /* Adjusted to make it one column */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo container styling */
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+/* Content container styling */
+.content {
+  text-align: center;
+}
+
+/* Styling for the file input block */
+.file-block {
+  margin-bottom: 20px; /* Adjusted */
+}
+
+/* Styling for the form elements block */
+.form-block {
+  display: grid;
+  grid-template-columns: 1fr; /* Adjusted to one column */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="time"], /* Added time input styling */
+select {
+  padding: 8px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  padding: 20px; /* Increase padding for a larger button */
+  width: calc(100% - 40px); /* Adjust width to accommodate larger padding */
+  height: 100px; /* Set height to make it square */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cost {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.upload-button {
+  margin-top: 20px;
+}
